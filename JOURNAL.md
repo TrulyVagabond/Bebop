@@ -34,14 +34,14 @@ Now it was time to work on the Carrier board which will fit onto the 40 GPIO pin
 
 My First SCHEMATIC:
 
-![First Schematic](assets/SCHEMATIC-Bebop.png)
+![First Schematic](assets/Old-SCHEMATIC-Bebop.png)
 
 it only includes 2 modules which are NRF24L01 and CC1101 because I hadn't come across LoRa at this time. This Schematic contains the Pi Header 2x20, a capacitor for the NRF module because it has sudden urges of sipping more power than required.
 
 
 and this is the PCB Design:
 
-![First PCB Design](assets/PCB-DESIGN-Bebop.png)
+![First PCB Design](assets/Old-PCB-DESIGN-Bebop.png)
 
 *Note: this Design had alot of flaws, more on that later.*
 
@@ -59,7 +59,7 @@ I had finished the Schematic and the PCB yesterday so I thought I'd post it on t
 
 The antenna wouldn't Fit, the pins of the modules were just barely missing the Pi. and the frequencies would mess because the NRF module is right above the CPU. I Planned the Redesign and started working on it. it took alot of time and this is how it looked:
 
-![](assets/PCB_PCB_Bebop-Carrier-Board_2026-07-05.png)
+![](assets/Old-PCB_PCB_Bebop-Carrier-Board_2026-07-05.png)
 
 I was very Happy with this design. In this design I changed the position of the Female Header to the Far Left and all the Module on the right side facing right. This way the Radio won't be in the way of the Pi and it connects beautifully. Then I got a notification from the Discord server. lets talk about that on the next day.
 
@@ -71,11 +71,11 @@ I was very Happy with this design. In this design I changed the position of the 
 
 This happend yesterday but you need a little suspense in life man cmon. Ok so the Guy reviewed my Previous Design, the one that had alot of Flaws, and he did point out those flaws. But I had fixed those already so I sent the New Design and He gave good advice. He said that I should put a power regulator like AMS1117 which connects to the 5V pin on the Pi and then converts it into 3.3V for the modules. He suggested this because all the modules I have used sip alot of power and the 3.3V cannot give that much power, and if it can't then what happens is a Brownout (Pi reboots). So to fix that I used the AMS1117. He also said to move the capacitor as close as possible to the Module otherwise the capacitor won't be helpful. He also said to make the tracks 45 degrees but it would take alot of time so i didn't fix it. After all of those fixes here's how it looks:
 
-![](assets/Final-PCB-Routing.png)
+![](assets/Old-PCB-Routing.png)
 
 SCHEMATIC:
 
-![](assets/Schematic_Bebop-Carrier-Board.2026-07-06.png)
+![](assets/Old-Schematic_Bebop-Carrier-Board.2026-07-06.png)
 
 CAD:
 
@@ -94,7 +94,7 @@ I think Thats the Final Iteration of the Carrier Board.
 
 I added more stuff to the Carrier board like Bypass Capacitors etc to the Power Regulator, which would prevent the Raspberry pi to reboot on high load. it was hard to do cuz i barely had any space. But I managed to fit all of it and route everything. Another Major fix was fixing the 90 degrees Routing, which i heard is bad, so I fixed it. I also added alot of stuff on the silkscreen like images and text. Here's the final look:
 
-![](assets/BeBop.png)
+![](assets/Complete-BeBop.png)
 
 ![](assets/Complete-Bebop-2D.png)
 

@@ -15,7 +15,8 @@ It just Pops onto the Raspberry Pi GPIO pins and you're good to go. (You do Have
 ## Steps To Reproduce:
 
 - Grab the Gerber.zip File from the repo and Upload it to your Choice of PCB manufacturer.
-- You can Either Solder the SMD components like AMS1117 and the Capacitors Yourself or have a manufacturer assemble it for you.
+
+- You can Either Solder the SMD components like **AMS1117** and the Capacitors Yourself or have a manufacturer assemble it for you.
 - Once the Board arrives, grab the 2x20 Female Header and solder it to the bottom of the board (not on the side of logos etc). 
 - Solder Standard Female Headers for the Radio Modules such as **NRF24L01**, **CC1101** and **LoRa RFM95W**. then Plug the Modules in its Specific Place.
 - Plug into the Raspberry Pi 5 and use a multimeter to verify if 3.3V is successfully reaching the VCC pins of the Radio Modules
@@ -25,5 +26,21 @@ It just Pops onto the Raspberry Pi GPIO pins and you're good to go. (You do Have
 ## SAFETY NOTES:
 
 - The Raspberry Pi 5 is very power-hungry and can draw up to 5A (27W) under heavy load. Ensure you are using the official 27W USB-C power supply so the Pi does not throttle when the radio modules pull transmission current.
+
 - Ensure that the Case isn't Air-tight and allows Air-Flow.
 - This board supports **Sub-1GHz** and **2.4GHz** transmission. Always ensure you are operating within the legal ISM (Industrial, Scientific, and Medical) radio bands for your specific country.
+
+
+## Bill of Materials (BOM)
+
+| Component | Designator | Description | Qty | LCSC Part # | Approx Price (USD) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **AMS1117-3.3** | U2 | 3.3V 1A Linear Voltage Regulator (SOT-223) | 1 | C6186 | $0.20 |
+| **22uF Capacitor** | C6 | Ceramic MLCC (1206 SMD) - Output Bulk Filter | 1 | C12891 | $0.35 |
+| **10uF Capacitor** | C4 | Ceramic MLCC (0805 SMD) - Input Bulk Filter | 1 | C15850 | $0.04 |
+| **100nF (0.1uF) Cap** | C2, C3 | 50V Ceramic MLCC (0805 SMD) - High-Frequency Bypass | 2 | C49678 | $0.04 |
+| **100uF Capacitor** | C1 | 25V Electrolytic Capacitor (Through-Hole Bulk Filter) | 1 | C4930491 | $0.02 |
+| **nRF24L01+PA+LNA** | U1 | 2.4GHz Wireless Transceiver Module with Power Amp | 1 | C9900187674 | $1.50 |
+| **CC1101 Module** | 1 | Sub-1GHz Wireless Transceiver Module | 1 | *User Assigned* | $2.50 |
+| **LoRa RF Module** | 2 | Long Range SX1278 RF Transceiver Module | 1 | *User Assigned* | $4.00 |
+| **F-2x20 Header** | P1 | 2.54mm Pitch Female Socket (For Raspberry Pi 5 GPIO) | 1 | C50982 | $0.29 |
