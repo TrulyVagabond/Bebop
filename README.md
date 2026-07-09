@@ -39,7 +39,6 @@ It just Pops onto the Raspberry Pi GPIO pins and you're good to go. (You do Have
 
 - Ensure that the Case isn't Air-tight and allows Air-Flow.
 - This board supports **Sub-1GHz** and **2.4GHz** transmission. Always ensure you are operating within the legal ISM (Industrial, Scientific, and Medical) radio bands for your specific country.
-<<<<<<< HEAD
 
 
 ## Bill of Materials (BOM)
@@ -55,5 +54,3 @@ It just Pops onto the Raspberry Pi GPIO pins and you're good to go. (You do Have
 | **CC1101 Module** | 1 | Sub-1GHz Wireless Transceiver Module | 1 | *User Assigned* | $2.50 |
 | **LoRa RF Module** | 2 | Long Range SX1278 RF Transceiver Module | 1 | *User Assigned* | $4.00 |
 | **F-2x20 Header** | P1 | 2.54mm Pitch Female Socket (For Raspberry Pi 5 GPIO) | 1 | C50982 | $0.29 |
-=======
->>>>>>> c5064316a56d8f96ddcd3f81f0e46d8e10d18d74
