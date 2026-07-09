@@ -1,6 +1,16 @@
 # An RF Carrier Board for Raspberry Pi 5 Inspired by Cowboy Bebop
 
-## Whats Different about this Carrier Board?:
+<img width="409" height="397" alt="BeBop" src="https://github.com/user-attachments/assets/b748c721-9c97-46ba-820b-c94b6badc429" />
+
+### Schematics:
+
+<img width="1228" height="450" alt="image" src="https://github.com/user-attachments/assets/a2ea1e2c-68e6-45b3-97fc-a8bb2ff5a330" />
+
+
+### In 3D:
+<img width="554" height="444" alt="Complete-Bebop-3D" src="https://github.com/user-attachments/assets/713ae90c-b115-438c-8c8a-74dbf62c1529" />
+
+## What's Different about this Carrier Board?:
 
 Well Because It's made by me, It's an RF Carrier Board, a custom designed Printed Circuit Board (PCB) that acts as a Multi-Band Radio Sheild for Raspberry Pi. Basically A Weapon when there's no internet. This Circuit Board Contains Modules Which are Widely used by Cybersecurity Professionals and Hobbiest. This Board is Engineered to Consolidate Three Distinct Modules such as:
 
