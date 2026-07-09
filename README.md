@@ -54,3 +54,5 @@ It just Pops onto the Raspberry Pi GPIO pins and you're good to go. (You do Have
 | **CC1101 Module** | 1 | Sub-1GHz Wireless Transceiver Module | 1 | *User Assigned* | $2.50 |
 | **LoRa RF Module** | 2 | Long Range SX1278 RF Transceiver Module | 1 | *User Assigned* | $4.00 |
 | **F-2x20 Header** | P1 | 2.54mm Pitch Female Socket (For Raspberry Pi 5 GPIO) | 1 | C50982 | $0.29 |
+
+***Note: A.I was only used for Research and Learning what each componenet does.***
