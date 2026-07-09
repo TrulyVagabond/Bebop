@@ -1,6 +1,16 @@
 # An RF Carrier Board for Raspberry Pi 5 Inspired by Cowboy Bebop
 
-## Whats Different about this Carrier Board?:
+<img width="409" height="397" alt="BeBop" src="https://github.com/user-attachments/assets/b748c721-9c97-46ba-820b-c94b6badc429" />
+
+### Schematics:
+
+<img width="1228" height="450" alt="image" src="https://github.com/user-attachments/assets/a2ea1e2c-68e6-45b3-97fc-a8bb2ff5a330" />
+
+
+### In 3D:
+<img width="554" height="444" alt="Complete-Bebop-3D" src="https://github.com/user-attachments/assets/713ae90c-b115-438c-8c8a-74dbf62c1529" />
+
+## What's Different about this Carrier Board?:
 
 Well Because It's made by me, It's an RF Carrier Board, a custom designed Printed Circuit Board (PCB) that acts as a Multi-Band Radio Sheild for Raspberry Pi. Basically A Weapon when there's no internet. This Circuit Board Contains Modules Which are Widely used by Cybersecurity Professionals and Hobbiest. This Board is Engineered to Consolidate Three Distinct Modules such as:
 
@@ -29,6 +39,7 @@ It just Pops onto the Raspberry Pi GPIO pins and you're good to go. (You do Have
 
 - Ensure that the Case isn't Air-tight and allows Air-Flow.
 - This board supports **Sub-1GHz** and **2.4GHz** transmission. Always ensure you are operating within the legal ISM (Industrial, Scientific, and Medical) radio bands for your specific country.
+<<<<<<< HEAD
 
 
 ## Bill of Materials (BOM)
@@ -44,3 +55,5 @@ It just Pops onto the Raspberry Pi GPIO pins and you're good to go. (You do Have
 | **CC1101 Module** | 1 | Sub-1GHz Wireless Transceiver Module | 1 | *User Assigned* | $2.50 |
 | **LoRa RF Module** | 2 | Long Range SX1278 RF Transceiver Module | 1 | *User Assigned* | $4.00 |
 | **F-2x20 Header** | P1 | 2.54mm Pitch Female Socket (For Raspberry Pi 5 GPIO) | 1 | C50982 | $0.29 |
+=======
+>>>>>>> c5064316a56d8f96ddcd3f81f0e46d8e10d18d74
