@@ -1,47 +1,32 @@
-# BEBOP: A Cyberdeck Inspired by Cowboy Bebop
+# BEBOP: A Carrier Board Inspired by Cowboy Bebop
 
 <br>
 
-## 1-July-2026 to 3-July-2026, (Hours = 10)
+## Total Project Time = 27
+### Total Journal Hours = 10
+### Total Lapse Hours = 17
+
+
+*Note: All the Hours in this Journal are not double Counted, all the time was spent researching and fixing problems etc. and were not recorded by Lapse. the designing time was indeed recorded by Lapse.*
+
+## 3-July-2026, (Hours = 2)
 
 ### The First Step: The Components
 
-If you want to build your own Cyberdeck then You have to find components. The main Components includes  
-
-- **SBC**, which is going to be the Brain of the build (Raspberry Pi's etc) 
-
-- **Display** (Optional, it can be a normal Display or Vr glasses etc) 
-
-- **Battery** to power the cyberdeck
-
-- **Inputs** (Keyboard, Trackpad or Trackball etc)
-
-- **Case** (You can use a cool box or 3D Print one yourself)
-
-It's the Most Important part of building a cyberdeck and the most time consuming. You also have to know which Part is better etc and which you should Avoid, and for someone starting new it's pretty hard to find right communities. Here are some communities you should joine in order to get a better grasp at what is a Cyberdeck and What's the Process of making it.
-
-- [The Cyberdeck Cafe](https://cyberdeck.cafe/)
-
-- [r/cyberdeck](https://www.reddit.com/r/cyberdeck)
-
-
 ### These are the Components I'm Going to Use:
 
-- Raspberry PI 5
-- Waveshare UPS HAT for Powering the Pi
-- Waveshare 7' DSI IPS Display
-- Keychrone Keyboard 60% (not sure about this since I also need a trackpad, or i can add a trackball??) 
-- Some Extra modules like **NRF24L01**, **CC1101** and the beast **LoRa RFM95W** which will be on the separate Carrier board I'll design.
+- **Raspberry Pi 5**
+- **NRF24L01**
+- **AMS1117 Power Regulator**
+- **Multiple Capacitors** 
+- **CC1101** 
+- **LoRa RFM95W**
 
-- and my own 3D printed Case to put all the stuff in
+These modules will be on the Carrier board I'll design. Why these Modules? you may ask, well these modules are highly used in the field of Cybersecurity and Networking. All of these modules can read radio waves and also transmit waves. and the the best of these is the LoRa RFM95W, which can send signal for up to 2KM's. this way you can talk to your friends etc from a long distance without internet, this is really useful and situations where you don't have internet connection. There are already alot of communties which are using these modules to avoid paying the corpo. checkout mesh network, or meshtastic on reddit. Its truly Facinating how much technology has evovled. 
 
-Finding the Components took alot of time because you have find stuff which is best and compatible to your Main SBC, which in my case is the RPI5. These days were also spent learning the software and tools like EasyEDA, Onshape. and the How the Schematics etc all means. Since it's my first time working with hardware. 
+## 4-July-2026, (Hours: 2)
 
-Thats all for today.
-
-## 4-July-2026, (Hours: 3)
-
-*Note: time isn't double counted, these 2 hours were spent researching about the pinouts of every component and how each component works with each other.*
+*"Note: time isn't double counted, these 3 hours were spent researching about the pinouts of every component and how each component works with each other."*
 
 ### Carrier Board:
 
@@ -62,13 +47,13 @@ and this is the PCB Design:
 
 Thats All I did on today, see you the next day.
 
-## 5-July-2026 (Hours: 3)
+## 5-July-2026 (Hours: 2)
 
-*Note: These Hours are not Double Counted, this time was spent Researching about the Problems I was facing and the solutions, Researching about the New Module (LoRa), pinout for LoRa and how it connects to the Pi.*
+*"Note: These Hours are not Double Counted, this time was spent Researching about the Problems I was facing and the solutions, Researching about the New Module (LoRa), pinout for LoRa and how it connects to the Pi."*
 
 ### Design Flaw and Addition of New Module:
 
-I had finished the Schematic and the PCB yesterday so I thought I'd post it on the discord server of cyberdeck cafe in order to get advice on what's wrong and what could be better. I left that message and went to work on the CAD, I wanted to check how everything would look when assembled, so I grabbed the CAD (GrabCAD hehe) of all the stuff like RPI5, NRF, CC1101 and LoRa module, I learned how to use onshape to assemble stuff. After learning I used the Fastened Mate button to assemble everything. Now there was a problem.
+I had finished the Schematic and the PCB yesterday so I thought I'd post it on the discord server so an expert can see it and give advice on what's wrong and what could be better. I left that message and went to work on the CAD, I wanted to check how everything would look when assembled, so I grabbed the CAD (GrabCAD hehe) of all the stuff like RPI5, NRF, CC1101 and LoRa module, I learned how to use onshape to assemble stuff. After learning I used the Fastened Mate button to assemble everything. Now there was a problem.
 
 ![Design Flaw CAD](assets/First-Design-Flaw-:\(.png)
 
@@ -78,9 +63,9 @@ The antenna wouldn't Fit, the pins of the modules were just barely missing the P
 
 I was very Happy with this design. In this design I changed the position of the Female Header to the Far Left and all the Module on the right side facing right. This way the Radio won't be in the way of the Pi and it connects beautifully. Then I got a notification from the Discord server. lets talk about that on the next day.
 
-## 6-July-2026 (Hours: 1)
+## 6-July-2026 (Hours: 2)
 
-*Note: These Hours are not Double Counted, it was spent Researching for the Power Regulator I added and the mistakes I encountered.*
+*"Note: These Hours are not Double Counted, it was spent Researching for the Power Regulator I added and the mistakes I encountered."*
 
 ### The Discord Guy's Advice:
 
@@ -98,4 +83,25 @@ CAD:
 
 ![](assets/Final-ig-Front-PCB.png)
 
-I think Thats the Final Iteration of the Carrier Board. Now I have to build a Case to house all the components. Imma Do it Now.
+I think Thats the Final Iteration of the Carrier Board. 
+
+**spoiler: it wasn't**
+
+
+## 7-July-2026 to 8-July-2026 (Hours: 2)
+
+*"Note: These Hours are not Double Counted."*
+
+I added more stuff to the Carrier board like Bypass Capacitors etc to the Power Regulator, which would prevent the Raspberry pi to reboot on high load. it was hard to do cuz i barely had any space. But I managed to fit all of it and route everything. Another Major fix was fixing the 90 degrees Routing, which i heard is bad, so I fixed it. I also added alot of stuff on the silkscreen like images and text. Here's the final look:
+
+![](assets/BeBop.png)
+
+![](assets/Complete-Bebop-2D.png)
+
+and in 3D:
+
+![](assets/Complete-Bebop-3D.png)
+
+I'm super happy with how it turned out considering its my first PCB. Well That's all for this Project. 
+           
+////...***See you Space Cowboy.***
