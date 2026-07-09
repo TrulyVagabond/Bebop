@@ -24,6 +24,8 @@
 
 These modules will be on the Carrier board I'll design. Why these Modules? you may ask, well these modules are highly used in the field of Cybersecurity and Networking. All of these modules can read radio waves and also transmit waves. and the the best of these is the LoRa RFM95W, which can send signal for up to 2KM's. this way you can talk to your friends etc from a long distance without internet, this is really useful and situations where you don't have internet connection. There are already alot of communties which are using these modules to avoid paying the corpo. checkout mesh network, or meshtastic on reddit. Its truly Facinating how much technology has evovled. 
 
+[Lapse Recording](https://lapse.hackclub.com/timelapse/kx5qRVOTJISV)
+
 ## 4-July-2026, (Hours: 2)
 
 *"Note: time isn't double counted, these 3 hours were spent researching about the pinouts of every component and how each component works with each other."*
@@ -47,6 +49,9 @@ and this is the PCB Design:
 
 Thats All I did on today, see you the next day.
 
+[Lapse Recording](https://lapse.hackclub.com/timelapse/hjvItGZcj2YN)
+*Note: Multiple Recordings*
+
 ## 5-July-2026 (Hours: 2)
 
 *"Note: These Hours are not Double Counted, this time was spent Researching about the Problems I was facing and the solutions, Researching about the New Module (LoRa), pinout for LoRa and how it connects to the Pi."*
@@ -62,6 +67,9 @@ The antenna wouldn't Fit, the pins of the modules were just barely missing the P
 ![](assets/Old-PCB_PCB_Bebop-Carrier-Board_2026-07-05.png)
 
 I was very Happy with this design. In this design I changed the position of the Female Header to the Far Left and all the Module on the right side facing right. This way the Radio won't be in the way of the Pi and it connects beautifully. Then I got a notification from the Discord server. lets talk about that on the next day.
+
+[Lapse Recording](https://lapse.hackclub.com/timelapse/zRoWw5NtJWp3)
+*Note: Multiple Recordings*
 
 ## 6-July-2026 (Hours: 2)
 
@@ -87,6 +95,8 @@ I think Thats the Final Iteration of the Carrier Board.
 
 **spoiler: it wasn't**
 
+[Lapse Recording](https://lapse.hackclub.com/timelapse/kFWiz4c0ZupO)
+*Note: Multiple Recordings*
 
 ## 7-July-2026 to 8-July-2026 (Hours: 2)
 
@@ -103,5 +113,9 @@ and in 3D:
 ![](assets/Complete-Bebop-3D.png)
 
 I'm super happy with how it turned out considering its my first PCB. Well That's all for this Project. 
+
+[Lapse Recording](https://lapse.hackclub.com/timelapse/UvAtWA6QLBb6)
+*Note: Multiple Recordings*
+
            
 ////...***See you Space Cowboy.***
